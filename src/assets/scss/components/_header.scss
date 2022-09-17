@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(33, 33, 33, 1);
+  padding: rem(15px) rem(25px);
+  &__title {
+    font-size: rem(20px);
+    font-weight: 600;
+    color: rgb(156, 163, 175);
+  }
+  &__link-wrapper {
+    display: flex;
+    align-items: center;
+    gap: rem(25px);
+  }
+  &__link-icon {
+    cursor: pointer;
+    fill: #cecece;
+  }
+  &__image {
+    width: rem(40px);
+    cursor: pointer;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,38 @@
+
+// Font Variables
+$primary-font: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system,
+  system-ui, sans-serif;
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1920px !default;
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  'extra-small': 320px,
+  'small': 640px,
+  'medium': 768px,
+  'medium-small': 980px,
+  'large': 1024px,
+  'medium-large': 1080px,
+  'extra-large': 1281px,
+  'double-extra-large': 1536px,
+  'tripple-extra-large': 1920px,
+) !default;
+// 1. Configuration and helpers
+@import 
+  'modules/media-queries', 
+  'modules/mixins',
+  'modules/helpers',
+  'modules/typography.scss';
+
+// 2. Components
+@import 
+  'components/header', 
+  'components/footer',
+  'components/sidebar';
+// 3. templates
+@import 
+  'templates/home';

@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: rem(16px);
+  font-weight: normal;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  position: relative;
+  overflow-x: hidden !important;
+}
+.body--fixed {
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+}
+.main {
+  position: relative;
+  @include mq(801px) {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+  }
+}
