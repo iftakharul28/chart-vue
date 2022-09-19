@@ -4,7 +4,6 @@
     width="20"
     height="20"
     viewBox="0 0 30 29.87"
-    class="fill-current text-green-default"
   >
     <g id="Invest-01" transform="translate(0.015 -0.243)">
       <path

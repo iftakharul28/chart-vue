@@ -5,9 +5,11 @@ import Sidebar from "./components/Sidebar.vue";
 </script>
 
 <template>
-  <Header />
   <main class="main">
+    <Header />
     <Sidebar />
-    <RouterView />
+    <main class="main__body">
+      <RouterView />
+    </main>
   </main>
 </template>

@@ -5,7 +5,6 @@
     width="20"
     height="20"
     viewBox="0 0 30 33"
-    class="fill-current text-orange-default"
   >
     <path
       id="Path_16"

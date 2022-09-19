@@ -4,7 +4,6 @@
     width="20"
     height="20"
     viewBox="0 0 30 39.369"
-    class="fill-current text-purple-default"
   >
     <path
       id="Tax-01"

@@ -4,7 +4,6 @@
     width="20"
     height="20"
     viewBox="0 0 30 26.058"
-    class="fill-current text-red-dark"
   >
     <g id="Realstate-01" transform="translate(-0.005 -5.237)">
       <path

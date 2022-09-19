@@ -4,7 +4,6 @@
     width="20"
     height="20"
     viewBox="0 0 30 29.967"
-    class="fill-current text-orange-dark"
   >
     <g id="Legalplanning-01" transform="translate(-0.224 -0.172)">
       <path

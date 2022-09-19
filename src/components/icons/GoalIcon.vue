@@ -4,7 +4,6 @@
     width="20"
     height="20"
     viewBox="0 0 30 28.54"
-    class="fill-current text-earth-default"
   >
     <g id="Goal-01" transform="translate(0.017 -0.768)">
       <circle

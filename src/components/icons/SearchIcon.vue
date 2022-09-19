@@ -4,7 +4,6 @@
     width="30"
     height="30"
     viewBox="0 0 40 40"
-    class="search__magnify"
   >
     <path
       id="ic_search_24px"

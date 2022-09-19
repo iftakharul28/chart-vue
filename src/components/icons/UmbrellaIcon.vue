@@ -4,7 +4,6 @@
     width="20"
     height="20"
     viewBox="0 0 30.001 30.431"
-    class="fill-current text-blue-default"
   >
     <path
       id="Insurence-01"

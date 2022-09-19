@@ -63,14 +63,16 @@ export default {
 </script>
 
 <template>
-  <Pie
-    :chart-data="chartData"
-    :chart-options="chartOptions"
-    :chart-id="chartId"
-    :width="width"
-    :height="height"
-    :plugins="plugins"
-    :css-classes="cssClasses"
-    :styles="styles"
-  />
+  <div>
+    <Pie
+      :chart-data="chartData"
+      :chart-options="chartOptions"
+      :chart-id="chartId"
+      :width="width"
+      :height="height"
+      :plugins="plugins"
+      :css-classes="cssClasses"
+      :styles="styles"
+    />
+  </div>
 </template>

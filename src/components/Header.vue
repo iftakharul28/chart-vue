@@ -12,7 +12,7 @@ import MassageIcon from "./icons/MassageIcon.vue";
       <FileIcon class="header__link-icon" />
       <BallIcon class="header__link-icon" />
       <MassageIcon class="header__link-icon" />
-      <img class="header__image" src="/logo.png" alt="logo" />
+      <img class="header__image" src="/profile-logo.png" alt="logo" />
     </div>
   </header>
 </template>

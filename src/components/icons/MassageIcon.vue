@@ -4,7 +4,6 @@
     width="30"
     height="30"
     viewBox="0 0 53.698 40"
-    class="fill-current text-gray-500"
   >
     <path
       id="Union_5"

@@ -26,6 +26,11 @@ a {
   position: relative;
   @include mq(801px) {
     display: grid;
+    grid-template-rows: auto 1fr;
     grid-template-columns: 100px 1fr;
+  }
+  &__body {
+    height: calc(100vh - 70px);
+    background-color: rgb(206, 206, 206);
   }
 }
