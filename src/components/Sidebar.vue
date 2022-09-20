@@ -12,10 +12,10 @@ import GoalIcon from "./icons/GoalIcon.vue";
   <aside class="side-bar">
     <div class="side-bar__wrapper">
       <div class="side-bar__logo-wrapper">
-        <img class="side-bar__image" src="logo.png" alt="logo" />
+        <img class="side-bar__image" src="/logo.png" alt="logo" />
         <img
           class="side-bar__image-text"
-          src="logo-bottom.png"
+          src="/logo-bottom.png"
           alt="logo-bottom"
         />
       </div>

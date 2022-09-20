@@ -1,9 +1,14 @@
 .side-bar {
   height: 100vh;
+  width: rem(100px);
   grid-row: 1/3;
   background-color: rgba(33, 33, 33, 1);
   &:hover {
     width: rem(220px);
+    transition-duration: 0.15s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: all;
+    // transition: 0.5s all cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     .side-bar__item-icon {
       &::before {
