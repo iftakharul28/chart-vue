@@ -1,0 +1,12 @@
+.home {
+  &__chart-list {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  &__left-chart {
+    grid-column: 1 / 9;
+  }
+  &__right-chart {
+    grid-column: 9 / -1;
+  }
+}
